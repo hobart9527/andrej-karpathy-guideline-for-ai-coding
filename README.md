@@ -4,6 +4,10 @@ Behavioral guidelines for Codex, adapted from Andrej Karpathy's observations abo
 
 This repository packages the ideas in a Codex-native form by centering them around a workspace `AGENTS.md` file.
 
+It is adapted from the original project:
+
+- `https://github.com/forrestchang/andrej-karpathy-skills`
+
 ## Why this exists
 
 Karpathy's critique of coding agents is still accurate across tools:
@@ -64,8 +68,8 @@ These guidelines are working if you see:
 
 ## Source
 
-This repository is adapted from the `CLAUDE.md`-based project at:
+This repository is adapted from the original `CLAUDE.md`-based project at:
 
-- `https://github.com/hobart9527/andrej-karpathy-skills`
+- `https://github.com/forrestchang/andrej-karpathy-skills`
 
 The intent is not to change the ideas, only to package them for Codex.
