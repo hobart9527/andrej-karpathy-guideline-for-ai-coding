@@ -1,8 +1,8 @@
-# AGENTS.md
+# CLAUDE.md
 
 Behavioral guidelines to reduce common LLM coding mistakes.
 
-Adapted for Codex from the Andrej Karpathy-inspired `CLAUDE.md` pattern, with a few Codex-friendly defaults added.
+Adapted for Claude from the Andrej Karpathy-inspired `CLAUDE.md` pattern, with a few current best-practice defaults added.
 
 Tradeoff: these guidelines bias toward caution over speed. For trivial tasks, use judgment.
 
@@ -110,5 +110,5 @@ Escalate before high-impact actions.
 Treat this file as a durable default, not a dumping ground.
 
 - Keep global guidance short and reusable across repositories.
-- Put repo-specific commands, layout, and workflow rules in repository `AGENTS.md` files closer to the code.
+- Put repo-specific commands, layout, and workflow rules in repository instruction files closer to the code.
 - If the same mistake happens twice, add or refine a rule based on that failure.
