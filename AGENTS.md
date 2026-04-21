@@ -65,3 +65,15 @@ Example:
 3. Clean up only change-caused fallout -> verify nothing regressed.
 
 Strong success criteria let the model loop independently. Weak criteria like "make it work" invite mistakes.
+
+## 5. Preserve Object Boundaries
+
+Keep the information architecture clean even when simplifying for speed.
+
+- You may simplify flows, UI, or implementation, but do not silently merge distinct domain objects just to close the loop faster.
+- Before reusing an existing object for a new need, check whether the two concepts truly share ownership, lifecycle, and responsibilities.
+- If the boundary between objects is still unclear, stop and name the ambiguity instead of encoding a convenient shortcut.
+- Prefer temporary feature reduction over temporary object mixing.
+- Treat object ownership errors as structural debt: they make every later feature harder, more coupled, and more expensive to change.
+
+The heuristic: simplified behavior is usually recoverable later; collapsed object boundaries usually spread.
